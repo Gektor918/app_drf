@@ -12,13 +12,6 @@
 &nbsp &nbsp &nbsp pip install -r requirements.txt
 
 <h3>4. Настраиваем бд в settings.py </h3>
-<br>DATABASES = {
-    <br>'default': {
-        <br>'ENGINE':'django.db.backends.postgresql',
-        <br>'NAME':'You name',
-        <br>'USER':'You user',
-        <br>'PASSWORD':'You password',} <br>
-    }
 
 <h3>5. Миграции </h3>
 &nbsp &nbsp &nbsp python3 manage.py makemigrations <br>
